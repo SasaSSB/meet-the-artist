@@ -5,11 +5,11 @@
 ## Description
 
 This application is a prototype designed to facilitate communication between art galleries and active artists by providing an accessible platform to view and manage artist information. 
-The application serves as a bridge, allowing galleries to easily access key details about artists, including their names, bio, contact information, and artistic portfolio(will be an art photo link).
+The application serves as a bridge, allowing galleries to easily access key details about artists, including their names, bio, contact information, and art portfolio (will be an art photo link).
 its a prototype, the application will utilize a manual JSON file as a data source, enabling testing and refinement before integrating real artist information. 
 This application aims to enhance collaboration opportunities. Later iteration will include adding a commenting and rating feature for Art Galleries to leave on the artist information.
 
-
+ 
 ## Getting Started
 
 ### Dependencies
