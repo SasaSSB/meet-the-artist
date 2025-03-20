@@ -1,0 +1,16 @@
+.App {
+  text-align: start;
+  background: grey;
+}
+
+.artists {
+  border: 1px black;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.324);
+  padding: 20px;
+  margin: 30px;
+  max-width: 250px;
+  display: inline-block;
+  z-index: 2;
+}
