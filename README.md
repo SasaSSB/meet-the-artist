@@ -22,7 +22,9 @@ Then node v22.13.0
 The program must be downloaded in an empty folder. 
 No modifications need to be made.
 
-
+### How the components are rendered dynamically
+-
+-
 ### Executing program
 
 * How to run the program
