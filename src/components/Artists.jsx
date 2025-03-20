@@ -1,5 +1,5 @@
 function Artists(props) {
-  //presentational component_ displays and gets data via props
+  //presentational component_ displays and gets data via props.
 
   return (
     <div className="artists">

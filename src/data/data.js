@@ -26,7 +26,7 @@ export const data = [
   },
   {
     id: 4,
-    name: "Jamison Fawkes",
+    name: "Jamison Fawkess",
     bio: "I create chaotic master pieces work often explores the intersection of light and shadow, aiming to create images that resonate with the viewer.",
     contact_Information: "490-616-6762",
     art_portfolio: "https://www.deviantart.com/nickbleb/art/CHAOS-955710538",
