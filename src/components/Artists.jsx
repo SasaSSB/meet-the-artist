@@ -3,9 +3,10 @@ function Artists(props) {
 
   return (
     <div className="artists">
-      <h2>{props.artists.name}</h2>
-      <p>Bio: {props.artists.bio}</p>
-      <p>Contact: {props.artists.contact_Information}</p>
+      <h3>{props.artists.name}</h3>
+      <p>Art Professions: {props.artists.art_professions}</p>
+      <p>Email: {props.artists.email}</p>
+      <p>Phone Number: {props.artists.phone_number}</p>
       <p>Art Portfolio: {props.artists.art_portfolio}</p>
     </div>
   );

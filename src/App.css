@@ -1,6 +1,19 @@
 .App {
-  text-align: start;
-  background: grey;
+  text-align: center;
+  background-color: rgb(118, 156, 143);
+  color: black;
+  font-family: "Meet The Artists", sans-serif;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 50px;
+  background-color: rgb(241, 222, 201);
 }
 
 .artists {
@@ -12,5 +25,25 @@
   margin: 30px;
   max-width: 250px;
   display: inline-block;
+  text-align: start;
   z-index: 1;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+button {
+  background-color: rgb(255, 154, 176);
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+button:disabled {
+  background-color: rgba(255, 154, 176, 0.447);
+  cursor: not-allowed;
 }

@@ -3,7 +3,7 @@ import Artists from "./Artists";
 //logical component_Manage state, passes data down
 
 function ArtistsDetails(props) {
-  //console.log
+  //console.log(props.artists);
   return (
     <div className="Art">
       {props.artists.map((artists) => (
