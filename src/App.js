@@ -1,11 +1,11 @@
 import ArtistsDetails from "./components/ArtistsDetails.jsx";
+import AddArtist from "./components/addArtist.jsx";
 import { useEffect, useState } from "react";
 import { data } from "./data/data.js";
 import "./App.css";
 
-//filter artist by proffession
 function App() {
-  const [artistsState] = useState(data);
+  const [artistsState, setArtists] = useState(data);
   const [page, setPage] = useState(1);
   const [currentArtists, setCurrentArtists] = useState([]);
   const itemsPerPage = 6;
@@ -27,15 +27,24 @@ function App() {
     setPage((prevPage) => prevPage + 1);
   };
 
+  //handles the prev page
   const handleBack = () => {
     if (page > 1) {
       setPage((prevPage) => prevPage - 1);
     }
   };
 
+  const updateArtists = (artists) => {
+    setArtists([...artistsState, artists]);
+    // console.log(artists);
+  };
+
   return (
     <div className="App">
       <h1>Meet The Artists</h1>
+      <div className="form-container ">
+        <AddArtist updateArtists={updateArtists} />
+      </div>
       <div className="main-container ">
         <ArtistsDetails artists={currentArtists} />
       </div>

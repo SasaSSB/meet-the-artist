@@ -16,6 +16,16 @@
   background-color: rgb(241, 222, 201);
 }
 
+.form-container {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 50px;
+  background-color: rgb(227, 244, 209);
+}
+
 .artists {
   border: 1px black;
   border-radius: 10px;
@@ -26,7 +36,6 @@
   max-width: 250px;
   display: inline-block;
   text-align: start;
-  z-index: 1;
   text-transform: capitalize;
   cursor: pointer;
 }

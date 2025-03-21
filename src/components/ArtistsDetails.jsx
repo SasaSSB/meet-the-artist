@@ -1,6 +1,6 @@
 import Artists from "./Artists";
 
-//logical component_Manage state, passes data down
+//logical component passes data down
 
 function ArtistsDetails(props) {
   //console.log(props.artists);

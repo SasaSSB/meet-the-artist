@@ -1,5 +1,5 @@
-//manually enter JSON file data from artist websites(photo_link)
-//test will be done with six
+//manually enter JSON file data using a retool.com api to get the random data
+//test will be done with fifty ids
 
 export const data = [
   {

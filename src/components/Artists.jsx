@@ -1,6 +1,6 @@
 function Artists(props) {
   //presentational component_ displays and gets data via props.
-
+  //Artist data layout
   return (
     <div className="artists">
       <h3>{props.artists.name}</h3>
