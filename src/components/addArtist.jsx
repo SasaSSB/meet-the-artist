@@ -1,6 +1,7 @@
 import { useState } from "react";
 function AddArtist({ updateArtists }) {
   const [formData, setFormData] = useState({
+    //form information for user
     name: "",
     art_professions: "",
     email: "",
@@ -14,7 +15,7 @@ function AddArtist({ updateArtists }) {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData);
+    // console.log(formData);
     updateArtists(formData);
   };
 
@@ -32,11 +33,12 @@ function AddArtist({ updateArtists }) {
       </div>
 
       <div>
-        <label>Art Profession:</label>
+        {/* Bug fixed  */}
+        <label>Art Professions:</label>
         <input
           type="text"
-          name="art_profession"
-          value={formData.art_profession}
+          name="art_professions"
+          value={formData.art_professions}
           onChange={handleChange}
           required
         />
@@ -54,11 +56,12 @@ function AddArtist({ updateArtists }) {
       </div>
 
       <div>
+        {/* Bug fixed  */}
         <label>Phone:</label>
         <input
           type="tel"
-          name="phone"
-          value={formData.phone}
+          name="phone_number"
+          value={formData.phone_number}
           onChange={handleChange}
           required
         />

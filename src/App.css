@@ -16,13 +16,36 @@
   background-color: rgb(241, 222, 201);
 }
 
-.form-container {
+.container {
   width: 300px;
+  height: 300px;
+}
+
+.text {
+  font-size: "Art Professions", sans-serif;
+  font-size: "Artist Form", sans-serif;
+  text-align: top;
+}
+
+.filter-item {
+  margin: 28px;
+  width: 200px;
   display: flex;
   justify-content: center;
-  gap: 10px;
-  align-items: flex-start;
-  padding: 50px;
+  padding: 55px;
+  border-radius: 3px;
+  outline: 2px solid rgba(195, 181, 156, 0.516);
+  background-color: rgb(227, 244, 209);
+}
+
+.form-item {
+  margin: 28px;
+  width: 200px;
+  height: 220px;
+  display: flex;
+  padding: 55px;
+  border-radius: 3px;
+  outline: 2px solid rgba(195, 181, 156, 0.516);
   background-color: rgb(227, 244, 209);
 }
 
