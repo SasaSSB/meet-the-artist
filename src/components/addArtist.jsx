@@ -21,6 +21,7 @@ function AddArtist({ updateArtists }) {
 
   return (
     <form onSubmit={handleSubmit}>
+      <div>---------------------------------</div>
       <div>
         <label>Image URL:</label>
         <input
@@ -88,7 +89,9 @@ function AddArtist({ updateArtists }) {
           required
         />
       </div>
-      <button type="submit">Submit</button>
+      <button type="submit" style={{ marginTop: "34px" }}>
+        Submit
+      </button>
     </form>
   );
 }
