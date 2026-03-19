@@ -1,9 +1,12 @@
 //manually enter JSON file data using a retool.com api to get the random data
-//test will be done with fifty ids
+//test will be done with now thirty ids.
+// links are generated as well not real portfolio.
 
 export const data = [
   {
     id: 1,
+    image:
+      "https://www.publicdomainpictures.net/pictures/390000/velka/frau-kunst-vintage-illustration-1613052294Vhp.jpg",
     name: "Tersina Gisburn",
     email: "kglen3@kickstarter.com",
     phone_number: "(555) 595-8125",
@@ -12,6 +15,7 @@ export const data = [
   },
   {
     id: 2,
+    image: "https://images.pexels.com/photos/8725223/pexels-photo-8725223.jpeg",
     name: "Mar Docherty",
     email: "lcutler1e@friendfeed.com",
     phone_number: "(555) 649-9160",
@@ -20,6 +24,7 @@ export const data = [
   },
   {
     id: 3,
+    image: "https://live.staticflickr.com/3907/14168706910_987c2ae9e4_b.jpg",
     name: "Neron Devanny",
     email: "nmartinon2u@godaddy.com",
     phone_number: "(555) 590-1481",
@@ -28,6 +33,8 @@ export const data = [
   },
   {
     id: 4,
+    image:
+      "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTEwL3BkbWlzYzYtd2syMjAzMDQyMy1pbWFnZV8xLmpwZw.jpg",
     name: "Rubina Sambiedge",
     email: "fabdee6u@unc.edu",
     phone_number: "(555) 796-9070",
@@ -36,6 +43,8 @@ export const data = [
   },
   {
     id: 5,
+    image:
+      "https://freerangestock.com/sample/184344/abstract-long-exposure-of-glowing-light-trails-in-loop.jpg",
     name: "Armin Melley",
     email: "svanine@flavors.me",
     phone_number: "(555) 574-1376",
@@ -44,6 +53,8 @@ export const data = [
   },
   {
     id: 6,
+    image:
+      "https://www.fusionartgallery.art/wp-content/uploads/2025/03/Picasso_1.jpg",
     name: "Micah Masarrat",
     email: "rhalsted24@photobucket.com",
     phone_number: "(555) 948-7986",
@@ -52,6 +63,7 @@ export const data = [
   },
   {
     id: 7,
+    image: "https://images.pexels.com/photos/212332/pexels-photo-212332.jpeg",
     name: "Arlana Pyne",
     email: "aovens6f@unesco.org",
     phone_number: "(555) 528-6222",
@@ -60,6 +72,8 @@ export const data = [
   },
   {
     id: 8,
+    image:
+      "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3BkbWlzY3Byb2plY3QyMC1kaWdpdGFsY3djb21tb253ZWFsdGh0bTcwbjU1OGgtaW1hZ2VfMi5qcGc.jpg",
     name: "Johannah Roddie",
     email: "jgimson2@un.org",
     phone_number: "(555) 172-2675",
@@ -68,6 +82,8 @@ export const data = [
   },
   {
     id: 9,
+    image:
+      "https://freerangestock.com/sample/175094/person-with-camera-captures-an-image-in-a-dark-room.jpg",
     name: "Hershel Halsted",
     email: "smcvittie6@buzzfeed.com",
     phone_number: "(555) 488-5657",
@@ -76,6 +92,8 @@ export const data = [
   },
   {
     id: 10,
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/3/3d/Girl_On_Garda_Lake_Sirmione_Italy_Fine_Art_Photography_%28187826309%29.jpeg",
     name: "Adelind Borth",
     email: "gblanchflower3u@nasa.gov",
     phone_number: "(555) 700-2597",
@@ -84,6 +102,8 @@ export const data = [
   },
   {
     id: 11,
+    image:
+      "https://www.lookandlearn.com/history-images/preview/YR/YR0/YR0010/YR0010133_Portrait-of-a-Painter-perhaps-the-Artist-Himself.jpg",
     name: "Caesar Cornels",
     email: "aeymer5q@a8.net",
     phone_number: "(555) 527-6650",
@@ -92,6 +112,8 @@ export const data = [
   },
   {
     id: 12,
+    image:
+      "https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGQyMDctMi0xMzAuanBn.jpg",
     name: "Sheeree Eilles",
     email: "mfilon32@hc360.com",
     phone_number: "(555) 204-5666",
@@ -100,6 +122,8 @@ export const data = [
   },
   {
     id: 13,
+    image:
+      "https://i2.pickpik.com/photos/992/146/466/head-carved-share-unika-art-project-preview.jpg",
     name: "Tory Banger",
     email: "hboshers50@narod.ru",
     phone_number: "(555) 744-2578",
@@ -108,6 +132,8 @@ export const data = [
   },
   {
     id: 14,
+    image:
+      "https://www.french-touch-photography.com/wp-content/uploads/wedding/portfolio2026/creatives/11-artistic-summit-manor-saint.jpg",
     name: "Aleen Johanning",
     email: "fswatridge3x@last.fm",
     phone_number: "(555) 727-8247",
@@ -116,6 +142,8 @@ export const data = [
   },
   {
     id: 15,
+    image:
+      "https://i0.pickpik.com/photos/587/14/460/art-beauty-fairytales-fantasy-preview.jpg",
     name: "Noelle Mustarde",
     email: "jiverson1a@ucoz.ru",
     phone_number: "(555) 799-4009",
@@ -124,6 +152,8 @@ export const data = [
   },
   {
     id: 16,
+    image:
+      "https://cdn2.picryl.com/photo/1908/12/31/85-la-catedral-55b25a-640.jpg",
     name: "Heindrick Dossett",
     email: "bweddeburn55@cloudflare.com",
     phone_number: "(555) 733-9151",
@@ -132,6 +162,8 @@ export const data = [
   },
   {
     id: 17,
+    image:
+      "https://freerangestock.com/sample/161005/artist-painting-a-portrait-outdoors.jpg",
     name: "Georgianne Worviell",
     email: "chyam5u@usatoday.com",
     phone_number: "(555) 899-4772",
@@ -140,6 +172,8 @@ export const data = [
   },
   {
     id: 18,
+    image:
+      "https://www.publicdomainpictures.net/pictures/720000/nahled/colorful-modern-art-cats-1757061603I00.jpg",
     name: "Filmer Meadowcroft",
     email: "troebottom6m@cbsnews.com",
     phone_number: "(555) 843-4874",
@@ -148,6 +182,8 @@ export const data = [
   },
   {
     id: 19,
+    image:
+      "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTEwL3BkbWlzYzYtd2szNjgwNjc2OS1pbWFnZV8xLWw5ZDM4b2VuLmpwZw.jpg",
     name: "Lucille Foat",
     email: "lzannolli1m@hostgator.com",
     phone_number: "(555) 384-9263",
@@ -156,6 +192,8 @@ export const data = [
   },
   {
     id: 20,
+    image:
+      "https://static.wixstatic.com/media/be276d_efbf57751e0c4c7785a364f6c9116832~mv2.jpg/v1/fill/w_494,h_343,q_90,enc_avif,quality_auto/be276d_efbf57751e0c4c7785a364f6c9116832~mv2.jpg",
     name: "Hank Beldon",
     email: "geccleston4e@phpbb.com",
     phone_number: "(555) 529-3287",
@@ -164,6 +202,8 @@ export const data = [
   },
   {
     id: 21,
+    image:
+      "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA2L3BkbWlzYzEwLXNtaXRoc25zYWFtMTk4NjkyMTAzMi1pbWFnZS5qcGc.jpg",
     name: "Geno Heindrick",
     email: "ddevanny3h@senate.gov",
     phone_number: "(555) 898-9346",
@@ -172,6 +212,8 @@ export const data = [
   },
   {
     id: 22,
+    image:
+      "https://newirishart.com/art/patrick-j-murphy/art-abstract-figure-pm0106.jpg",
     name: "Franzen Jakubowsky",
     email: "yslides4g@bbc.co.uk",
     phone_number: "(555) 702-4651",
@@ -180,6 +222,8 @@ export const data = [
   },
   {
     id: 23,
+    image:
+      "https://www.publicdomainpictures.net/pictures/190000/nahled/fairy-tale-illustration-1473274669fAr.jpg",
     name: "Charo Sambiedge",
     email: "ahemerijk3a@wikimedia.org",
     phone_number: "(555) 590-2301",
@@ -188,6 +232,8 @@ export const data = [
   },
   {
     id: 24,
+    image:
+      "https://r2-us-west.photoai.com/1711899325-f17bb779b1ce57eb22bd05a4508553b6-1.jpg",
     name: "Binni Beldon",
     email: "kmackegg3n@hugedomains.com",
     phone_number: "(555) 656-9671",
@@ -196,6 +242,8 @@ export const data = [
   },
   {
     id: 25,
+    image:
+      "https://i1.pickpik.com/photos/64/728/864/sandburg-art-sand-sculpture-sculpture-preview.jpg",
     name: "Lydie Kiddey",
     email: "spenkman6a@youtube.com",
     phone_number: "(555) 753-7024",
@@ -204,6 +252,8 @@ export const data = [
   },
   {
     id: 26,
+    image:
+      "https://newirishart.com/art/ani-mollereau/art-freedom-of-spirit-am0107.jpg",
     name: "Renato Worviell",
     email: "cwindrum31@nsw.gov.au",
     phone_number: "(555) 270-7950",
@@ -212,6 +262,8 @@ export const data = [
   },
   {
     id: 27,
+    image:
+      "https://cdn4.picryl.com/photo/2016/01/01/stick-figure-in-motion-public-art-in-downtown-fort-wayne-indiana-e858c7-1024.jpg",
     name: "Ranique Spellissy",
     email: "sference67@telegraph.co.uk",
     phone_number: "(555) 341-4038",
@@ -220,6 +272,8 @@ export const data = [
   },
   {
     id: 28,
+    image:
+      "https://cdn12.picryl.com/photo/2016/12/31/graffiti-art-paint-backgrounds-textures-95718b-1024.jpg",
     name: "Guillermo Kiddey",
     email: "hdocherty2k@360.cn",
     phone_number: "(555) 179-8309",
@@ -228,6 +282,8 @@ export const data = [
   },
   {
     id: 29,
+    image:
+      "https://media.easy-peasy.ai/27feb2bb-aeb4-4a83-9fb6-8f3f2a15885e/6cdcc1c5-de13-47a5-83ef-99025e31a318.png",
     name: "Sheeree Beyn",
     email: "hfeore1f@naver.com",
     phone_number: "(555) 935-2010",
@@ -236,170 +292,11 @@ export const data = [
   },
   {
     id: 30,
+    image: "https://images.pexels.com/photos/7990019/pexels-photo-7990019.jpeg",
     name: "Stuart Benjefield",
     email: "amoakesk@example.com",
     phone_number: "(555) 457-9612",
     art_portfolio: "https://www.qq.com",
-    art_professions: "Photographer",
-  },
-  {
-    id: 31,
-    name: "Domini Durrett",
-    email: "sbrizell2f@myspace.com",
-    phone_number: "(555) 799-6752",
-    art_portfolio: "https://www.sphinn.com",
-    art_professions: "Painter",
-  },
-  {
-    id: 32,
-    name: "Sella Stovine",
-    email: "irotterl@comcast.net",
-    phone_number: "(555) 539-9289",
-    art_portfolio: "https://www.wikimedia.org",
-    art_professions: "Illustrator",
-  },
-  {
-    id: 33,
-    name: "Sibylle Kenafaque",
-    email: "flemerie36@ft.com",
-    phone_number: "(555) 787-6491",
-    art_portfolio: "https://www.zimbio.com",
-    art_professions: "Sculptor",
-  },
-  {
-    id: 34,
-    name: "Diannne Kentwell",
-    email: "bpycock5@myspace.com",
-    phone_number: "(555) 513-9717",
-    art_portfolio: "https://www.un.org",
-    art_professions: "Photographer",
-  },
-  {
-    id: 35,
-    name: "Ryann Kaygill",
-    email: "hwarbrick1s@alibaba.com",
-    phone_number: "(555) 934-5946",
-    art_portfolio: "https://www.youku.com",
-    art_professions: "Sculptor",
-  },
-  {
-    id: 36,
-    name: "Konstanze Stoppard",
-    email: "bmanktelow30@geocities.jp",
-    phone_number: "(555) 926-1542",
-    art_portfolio: "https://www.harvard.edu",
-    art_professions: "Sculptor",
-  },
-  {
-    id: 37,
-    name: "Hank Feore",
-    email: "bboyle4a@ocn.ne.jp",
-    phone_number: "(555) 677-4108",
-    art_portfolio: "https://www.ebay.co.uk",
-    art_professions: "Sculptor",
-  },
-  {
-    id: 38,
-    name: "Kessiah Moakes",
-    email: "rboswell3m@salon.com",
-    phone_number: "(555) 820-5503",
-    art_portfolio: "https://www.berkeley.edu",
-    art_professions: "Sculptor",
-  },
-  {
-    id: 39,
-    name: "Halie Menier",
-    email: "sbohey1y@twitter.com",
-    phone_number: "(555) 936-7789",
-    art_portfolio: "https://www.parallels.com",
-    art_professions: "Sculptor",
-  },
-  {
-    id: 40,
-    name: "Ranique Kaminski",
-    email: "gcullrfordm@myspace.com",
-    phone_number: "(555) 197-3406",
-    art_portfolio: "https://www.sourceforge.net",
-    art_professions: "Illustrator",
-  },
-  {
-    id: 41,
-    name: "Georgianne Johanning",
-    email: "cwindrum31@nsw.gov.au",
-    phone_number: "(555) 462-3145",
-    art_portfolio: "https://www.un.org",
-    art_professions: "Sculptor",
-  },
-  {
-    id: 42,
-    name: "Ettie Bransom",
-    email: "bweddeburn55@cloudflare.com",
-    phone_number: "(555) 858-5556",
-    art_portfolio: "https://www.canalblog.com",
-    art_professions: "Photographer",
-  },
-  {
-    id: 43,
-    name: "Joan Sambiedge",
-    email: "aduckeru@scribd.com",
-    phone_number: "(555) 505-5702",
-    art_portfolio: "https://www.posterous.com",
-    art_professions: "Photographer",
-  },
-  {
-    id: 44,
-    name: "Stephani Borth",
-    email: "elauks15@vkontakte.ru",
-    phone_number: "(555) 341-6102",
-    art_portfolio: "https://www.linkedin.com",
-    art_professions: "Painter",
-  },
-  {
-    id: 45,
-    name: "Adelind Halward",
-    email: "jcorssenf@dyndns.org",
-    phone_number: "(555) 433-8243",
-    art_portfolio: "https://www.example.com",
-    art_professions: "Photographer",
-  },
-  {
-    id: 46,
-    name: "Geno Shields",
-    email: "bciani1b@wikimedia.org",
-    phone_number: "(555) 855-4185",
-    art_portfolio: "https://www.bbc.co.uk",
-    art_professions: "Sculptor",
-  },
-  {
-    id: 47,
-    name: "Birch Malinson",
-    email: "cbeldon4z@deviantart.com",
-    phone_number: "(555) 179-8339",
-    art_portfolio: "https://www.alibaba.com",
-    art_professions: "Painter",
-  },
-  {
-    id: 48,
-    name: "Richardo Brito",
-    email: "ameadowcroft1u@wisc.edu",
-    phone_number: "(555) 949-9232",
-    art_portfolio: "https://www.about.com",
-    art_professions: "Sculptor",
-  },
-  {
-    id: 49,
-    name: "Lyon O'Hengerty",
-    email: "mbastide5k@nymag.com",
-    phone_number: "(555) 617-9036",
-    art_portfolio: "https://www.japanpost.jp",
-    art_professions: "Sculptor",
-  },
-  {
-    id: 50,
-    name: "Marisa Bexley",
-    email: "iwathall41@reverbnation.com",
-    phone_number: "(555) 995-2389",
-    art_portfolio: "https://www.about.com",
     art_professions: "Photographer",
   },
 ];

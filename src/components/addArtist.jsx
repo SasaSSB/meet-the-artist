@@ -22,6 +22,17 @@ function AddArtist({ updateArtists }) {
   return (
     <form onSubmit={handleSubmit}>
       <div>
+        <label>Image URL:</label>
+        <input
+          type="url"
+          name="image"
+          value={formData.image}
+          onChange={handleChange}
+          placeholder="https://example.com/photo.jpeg"
+        />
+      </div>
+
+      <div>
         <label>Name:</label>
         <input
           type="text"
