@@ -59,6 +59,8 @@ Common problems.
 Sherill Braynen
 
 ## Version History
+- 0.5
+  - Prototype 2 is ready
 - 0.4
   - Work in progress
 - 0.3
