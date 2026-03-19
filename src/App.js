@@ -62,7 +62,7 @@ function App() {
   return (
     <div className="App">
       <h1>Meet The Artists</h1>
-      <h2>Flip Card to see Fellow Artists Information</h2>
+      <h2>Flip Cards to see Fellow Artists Information</h2>
       <div className="main-container ">
         <div className="container ">
           <div className="filter-item">
